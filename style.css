@@ -1,0 +1,323 @@
+@font-face {
+    src: url('assets/fonts/roboto-slab/RobotoSlab-Bold.ttf');
+    font-family: 'RobotoSlab-Bold';
+}
+
+@font-face {
+    src: url('assets/fonts/roboto-slab/RobotoSlab-Regular.ttf');
+    font-family: 'RobotoSlab-Regular';
+}
+
+@font-face {
+    src: url('assets/fonts/roboto-slab/RobotoSlab-Light.ttf');
+    font-family: 'RobotoSlab-Light';
+}
+body{
+    font-family: 'RobotoSlab-Bold';
+    font-family: 'RobotoSlab-Regular';
+    font-family: 'RobotoSlab-Light';
+}
+.section-padding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/*Header Area CSS Start*/
+.header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EDEFF1;
+}
+.logo img {
+    width: 153px;
+    height: auto;
+}
+.mobile-menu {
+    display: none;
+    border: 2px solid #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #444;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.mobile-menu:hover{
+    text-decoration: none;
+    color: #444;
+}
+.menu ul {
+    list-style: none;
+    text-align: right;
+    margin-top: 12px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #31353E;
+    text-decoration: none;
+    font-family: RobotoSlab-Regular;
+    font-size: 15px;
+
+    transition: all 0.3s;
+}
+
+.menu ul li a:hover{
+    background: #DD4B2B;
+    color: #ffffff;
+}
+/*Header Area CSS End*/
+
+/*Hero Area CSS Start*/
+.hero-area {
+    background-color: #aaaaaa;
+    background-image: url('assets/img/bg-1.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-content {
+    padding-top: 200px;
+    padding-bottom: 130px;
+    color: #ffffff;
+}
+.hero-content h1 {
+    font-family: RobotoSlab-Regular;
+    font-size: 72px;
+}
+.hero-content p {
+    font-size: 17px;
+    font-family: RobotoSlab-Regular;
+    margin-bottom: 100px;
+}
+
+.hero-content-box img {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    border: 5px solid #fffddd;
+}
+
+.hero-content-box h3 {
+    font-family: RobotoSlab-Bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hero-content-box p {
+    font-family: RobotoSlab-Light;
+    font-size: 15px;
+    line-height: 1.75em;
+}
+
+.read-more {
+    font-family: RobotoSlab-Regular;
+    font-size: 18px;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+    color: #612316;
+
+}
+.read-more:hover{
+    text-decoration: none;
+}
+
+/*Hero Area CSS End*/
+
+/*News Area CSS Start*/
+.news-area {
+    background-color: #EDEFF1;
+}
+.news-title {
+  margin-bottom: 80px;
+}
+.news-title h2 {
+    font-size: 30px;
+    font-family: RobotoSlab-Bold;
+}
+.news-box {
+  text-align: center;
+  margin-bottom: 50px; 
+}
+.news-box img {
+  width: 100%;
+}
+.news-box h3 {
+  font-size: 24px;
+  font-family: RobotoSlab-Regular;
+  margin: 40px 0px 20px 0px;
+}
+.news-box p {
+    font-size: 15px;
+    font-family: RobotoSlab-Light;
+    margin-bottom: 40px;
+    line-height: 1.75em;
+}
+.news-box a {
+    color: #4e5159;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: RobotoSlab-Light;
+    display: inline-block;
+}
+
+.news-box a:hover{
+    color: #275AB3;
+}
+/*News Area CSS End*/
+
+/*Newsletter CSS Start*/
+.newsletter {
+    background-color: #aaaaaa;
+    background-image: url("assets/img/newsletter-bg.png");
+    background-position: center bottom;
+    background-attachment: scroll;
+    color: #ffffff;
+}
+.newsletter-content h2 {
+  font-family: RobotoSlab-Bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.newsletter-content p {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.75em;
+    margin-bottom: 50px;
+}
+.newletter-singup {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    height: 55px;
+}
+.newletter-singup form {
+    width: 100%;
+    position: relative;
+}
+.newletter-singup input[type="email"] {
+    width: 350px;
+    padding: 14px 50px 14px 25px;
+    border-radius: 40px 0px 0px 40px;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #dddddd;
+    box-shadow: 0px 0px 60px 5px #A23E26;
+}
+.newletter-singup button {
+    width: 190px;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: RobotoSlab-Regular;
+    box-shadow: 0px 0px 60px 5px #A23E26;
+}
+.newletter-singup button:hover{
+    color: #E07D68;
+}
+/*Newsletter CSS End*/
+
+/*Product Details Area CSS Start*/
+.product-1 {
+    margin-bottom: 50px;
+}
+
+.product-description h3 {
+  font-family: RobotoSlab-Bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.product-description p {
+  font-family: Roboto-Light;
+  font-size: 16px;
+  line-height: 1.65em;
+  margin-bottom: 30px;
+}
+.product-description a {
+  padding: 20px 50px;
+  background-color: #DD4B2B;
+  color: #fff;
+  font-family: RobotoSlab-Regular;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+
+  transition: background-color 0.3s;
+}
+
+.product-description a:hover{
+    background-color: #4B4E73;
+}
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+.product-2 a {
+    background-color: #4B4E73;
+    transition: background-color 0.3s;
+}
+.product-2 a:hover{
+    background-color: #DD4B2B;
+}
+/*Product Details Area CSS End*/
+
+/*Footer Area CSS Start*/
+.footer-area {
+    background-color: #D75D0E;
+    color: #ffffff;
+}
+.footer-menu ul {
+  list-style: none;
+  text-align: center;
+}
+.footer-menu ul li a {
+    color: #fff;
+    line-height: 2.0em;
+    font-size: 18px;
+    font-family: RobotoSlab-Regular;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-menu ul li a:hover{
+    color: #aaaaaa;
+}
+/*Footer Area CSS End*/
+
+/*Footer Bottom Area CSS Start*/
+.footer-bottom{
+    background-image: url(assets/img/footer-bg.png);
+}
+
+.footer-bottom p {
+    max-width: 670px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.footer-bottom a {
+    font-family: RobotoSlab-Bold;
+    color: #ffffff;
+    
+}
+.footer-bottom a:hover{
+    color: #C7FFFF;
+}
+/*Footer Bottom Area CSS End*/

@@ -1,0 +1,30 @@
+@media only screen and (max-width:1050px){
+	.menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width:530px){
+	.hero-content h1 {
+    font-size: 50px;
+	}
+	.newletter-singup {
+    width: 350px;
+   
+	}
+
+	.newletter-singup input[type="email"] {
+    width: 270px;
+    padding: 14px 50px 14px 25px;
+   
+	}
+	.newletter-singup button {
+    width: 120px;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    
+	}
+}
